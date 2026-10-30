@@ -1,0 +1,33 @@
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+
+# Private and generated data — never commit
+data/raw/
+data/processed/
+outputs/runs/
+
+# Keep synthetic demonstration data and sample outputs in Git
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
